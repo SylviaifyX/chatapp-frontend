@@ -17,7 +17,7 @@ const SignUp = () => {
     e.preventDefault();
   
     try {
-      const { data } = await axios.post("https://chatapp-server-5iqw.onrender.com/auth/sign", {
+      const { data } = await axios.post("https://chatapp-server-5iqw.onrender.com/auth/signup", {
         username: personName,
         password: personPassword,
       });
