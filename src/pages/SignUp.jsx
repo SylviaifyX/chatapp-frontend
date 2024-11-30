@@ -17,10 +17,12 @@ const SignUp = () => {
     e.preventDefault();
   
     try {
-      const { data } = await axios.post("https://chatapp-server-5iqw.onrender.com/auth/signup", {
+      const { data } = await axios.post("https://chatapp-server-5iqw.onrender.com/auth/register", {
         username: personName,
         password: personPassword,
       });
+
+    console.log("Response data:", data);
   
       if (data.token) {
        

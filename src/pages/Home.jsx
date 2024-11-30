@@ -80,8 +80,7 @@ import SideBar from "../components/SideSection"
 import { useState, useEffect } from "react";
 import io from "socket.io-client";
 import axios from "axios";
-const socket = io("https://chatapp-server-5iqw.onrender.com", {
-  transports: ["websocket", "polling"], // Match backend configuration
+const socket = io("https://chatapp-server-5iqw.onrender.com", {// Match backend configuration
 });
 const Home = () => {
   const [messages, setMessages] = useState([]);
