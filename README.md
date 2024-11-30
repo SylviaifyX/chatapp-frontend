@@ -1,8 +1,15 @@
-# React + Vite
+# Chap App-Client-side
+This is a chat application that enables users to register, send messages, and securely log out. 
+The frontend interacts seamlessly with the backend API to handle user authentication and messaging functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+* Signup: Create a new user account.
+* Logout: Securely log out of the application.
+* Messaging: Send messages.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built With
+* React.js: Frontend  libary
+* Axios: For making API requests
+* React Router: For client-side routing
+* Tailwind CSS: For styling
